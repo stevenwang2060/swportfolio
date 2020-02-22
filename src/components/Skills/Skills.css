@@ -8,7 +8,7 @@
 .skill h1{
     text-align: center;
     font-family: 'Anton', sans-serif;
-    color: #4B4B4B;
+    color: white;
     font-size: 4rem;
     margin: 50px 0;
 }
@@ -30,9 +30,9 @@
     margin: 20px 10px;
     border: none;
     border-radius: 10px;
-    -webkit-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
-    -moz-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
-    box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -1px 2px 28px -1px white;
+    -moz-box-shadow: -1px 2px 28px -1px white;
+    box-shadow: -1px 2px 28px -1px white;
 }
 
 .skill-card:hover{
@@ -57,9 +57,10 @@
     border: 1px solid #e3e3e3;
     border-radius: 10px;
     padding: 10px;
-    -webkit-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
-    -moz-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
-    box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
+    background-color: white;
+    -webkit-box-shadow: -1px 2px 28px -1px blue;
+    -moz-box-shadow: -1px 2px 28px -1px blue;
+    box-shadow: -1px 2px 28px -1px blue;
 }
 
 .skill article a, .skill article div{
