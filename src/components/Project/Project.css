@@ -1,0 +1,94 @@
+.project{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #4B4B4B;
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 40%;
+    max-width: 350px;
+    margin: 20px 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.75);
+}
+
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-title{
+    font-size: 2.3rem;
+    font-family: 'Anton', sans-serif;
+    color: #4B4B4B;
+}
+
+.card .card-subtitle{
+    font-family: 'Cambay', sans-serif;
+    color: #838383;
+    font-size: 1.1rem;
+}
+
+.card .card-text{
+    font-family: 'Cambay', sans-serif;
+    color: #4B4B4B;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.card ul{
+    list-style-type: circle;
+}
+
+.card li{
+    margin: 5px 0;
+    margin-left: 20px;
+    font-family: 'Cambay', sans-serif;
+    font-size: 1.5rem;
+    color: #4B4B4B;
+}
+
+.card .button-container{
+    margin: 10px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card button:hover{
+    background-color: #61b1ff;
+}
+
+@media (max-width: 1000px){
+    .project{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px){
+}
+
+@media (max-width: 700px){
+    .card{
+        width: 70%;
+    }
+}

@@ -1,0 +1,183 @@
+header{
+    width: 30%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-container img{
+    width: 100%;
+    border-radius: 25%;
+}
+
+.profile-container h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    color: black;
+}
+
+.profile-container h3{
+    font-family: 'Cambay', sans-serif;
+    font-size: 3rem;
+    color: black;
+}
+
+.profile-container img, .profile-container h3, .profile-container button{
+    margin-bottom: 30px;
+}
+
+.profile-container button{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+.profile-container button:hover{
+    cursor: pointer;
+    background-color: #e8e8e8;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav button{
+    font-family: 'Cambay', sans-serif;
+    font-size: 2rem;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none !important;
+}
+
+header nav button:hover{
+    cursor: pointer;
+    background-color: #e8e8e8;
+}
+
+header .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header .links div{
+    font-size: 4rem;
+    color:#4B4B4B;
+    margin: 0 20px;
+}
+
+header .links div:hover{
+    cursor: pointer;
+    color: #838383;
+}
+
+@media (max-width: 1000px){
+    header{
+        flex-direction: row;
+        width: 100%;
+    }
+    .profile-container{
+        width: 30%;
+        margin-left: 30px;
+    }
+    .profile-container button{
+        width: 100%;
+    }
+    .profile-container h1{
+        font-size: 4.7rem;
+    }
+    .profile-container h3{
+        font-size: 2rem;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 800px){
+    header{
+        margin-top: 0;
+    }
+    .profile-container{
+        width: 40%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .profile-container button{
+        margin-bottom: 20px;
+    }
+    .profile-container h1{
+        font-size: 3.9rem;
+    }
+    .profile-container h3{
+        font-size: 1.5rem;
+    }
+    .mobile{
+        width: 60%;
+    }
+    header nav{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        justify-content: center;
+        width: 80%;
+    }
+    header nav button{
+        width: 90px;
+        padding: 6px;
+        padding-top: 12px;
+        margin-left: 8px;
+        margin-right: 8px;
+        -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.31);
+        -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.31);
+        box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.31);
+        
+    }
+    header .links div{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 500px){
+    .profile-container h1{
+        font-size: 3rem;
+    }
+    .profile-container h3{
+        font-size: 1.2rem;
+    }
+    .profile-container button{
+        margin-bottom: 5px;
+    }
+    .mobile nav button{
+        width: 70px;
+    }
+    .mobile nav button{
+        font-size: 1.4rem;
+    }
+    header .links div{
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,19 @@
+.app{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+}
+
+@media (max-width: 1000px){
+  .app{
+      flex-direction: column;
+      -webkit-flex-direction: column;
+  }
+}
+
+@media (max-width: 500px){
+  .app{
+      overflow-x: hidden;
+  }
+}
