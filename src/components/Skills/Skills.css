@@ -1,0 +1,89 @@
+.skill{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #4B4B4B;
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+}
+
+.skill-card{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
+    box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
+}
+
+.skill-card:hover{
+    transform: scale(1.1);
+}
+
+.skill-card svg{
+    color: dodgerblue;
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+.skill-card p{
+    color: white;
+    font-family: 'Cambay', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.skill article{
+    margin: 50px 0;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
+    box-shadow: -1px 2px 28px -1px rgba(0,0,0,0.35);
+}
+
+.skill article a, .skill article div{
+    font-family: 'Cambay', sans-serif !important;
+}
+
+.skill .react-github-calendar__meta{
+    margin-top: 10px;
+}
+
+@media (max-width: 1000px){
+    .skill{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .skill article{
+        margin: 50px 8px;
+    }
+}
+
+@media (max-width: 655px){
+    .skill-container{
+        width: 90%;
+    }
+}

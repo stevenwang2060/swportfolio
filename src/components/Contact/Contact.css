@@ -1,0 +1,88 @@
+.contact{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #4B4B4B;
+    font-size: 4rem;
+    margin: 50px 0;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.contact form label{
+    font-family: 'Cambay', sans-serif;
+    font-size: 2.5rem;
+    color: #4B4B4B;
+    padding-top: 15px;
+}
+
+.contact form input{
+    height: 30px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family: 'Cambay', sans-serif;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.contact form textarea{
+    height: 200px;
+    font-size: 1.8rem;
+    font-family: 'Cambay', sans-serif;
+    padding-top: 10px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.contact form label, .contact form input, .contact form textarea{
+    margin: 5px 0;
+    outline: none;
+}
+
+.contact form button{
+    margin-top: 10px;
+    width: 30%;
+    background-color: dodgerblue;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Cambay', sans-serif;
+    padding-top: 25px;
+}
+
+.contact form button:hover{
+    background-color: #61b1ff;
+}
+
+@media (max-width: 1000px){
+    .contact{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contact form input{
+        font-size: 1.7rem;
+    }
+    .contact form button{
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 500px){
+    .contact form button{
+        width: 60%;
+    }
+}
