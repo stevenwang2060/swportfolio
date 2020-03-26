@@ -1,8 +1,7 @@
 .app{
   background-color: black;
-  margin: 0 auto;
   display: flex;
-  display: -webkit-flex;
+  height: 100%;
 }
 
 @media (max-width: 1000px){
